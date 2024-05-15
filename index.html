@@ -11,21 +11,19 @@
     />
   </head>
   <body>
-    
-    <div class="smartphone">
-      <div id="random" class="profile-top">
-        <img id="img" src="" alt="Profile"  "/>
+    <div class="img">
+      <img id="img" src="" alt="profile" />
+    </div>
+    <div class="user-profile">
+      <div class="profile-top">
         <div class="profile-info">
-           <h1 id="name">Name</h1>
+          <h1 id="name">Name</h1>
           <h3 id="gender">Gender</h3>
         </div>
       </div>
       <div class="profile-body">
-        
-
-
-        <div id="d1" class="profile-info">
-          <span class="material-icons"> calendar_month </span>
+        <div  class="profile-info">
+          <span id="d1" class="material-icons"> calendar_month </span>
           <span id="dob"> DOB </span>
         </div>
 
@@ -34,30 +32,29 @@
           <span id="phone"> Phone: </span>
         </div>
 
-        
-
-        
-        <div id="d3"  class="profile-info">
-          <h4>BIOGRAPHY</h4>
-     <p>     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sapiente eligendi consequatur doloribus alias animi mollitia pariatur cumque soluta molestias! 
-
+        <div  class="profile-info">
+          <h4 id="d3">BIOGRAPHY</h4>
+          <p class="p">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perferendis sapiente eligendi consequatur doloribus alias animi
+            mollitia pariatur cumque soluta molestias!
           </p>
           <span class="material-icons"> mail </span>
           <span id="email"> Email: </span>
         </div>
-
-        <div id="d4" class="profile-info">
-            <span class="material-icons"> location_on </span>
-            <span id="location"> Location: </span>
-         </div>
-
-
-
-
       </div>
     </div>
 
-    <button id="resetButton" onclick="getRandomUser()">RESET</button>
+    <div class="main">
+      <div id="d4" class="profile-info">
+        <span class="material-icons"> location_on </span>
+        <span id="location"> Location: </span>
+      </div>
+      <button id="resetButton" onclick="getRandomUser()">RESET</button>
+    </div>
+
+
+
     <script src="script.js"></script>
   </body>
 </html>
