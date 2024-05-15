@@ -1,0 +1,99 @@
+body{
+    background:url(bg.png);
+}
+
+
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 40%;
+  }
+  h3{
+    text-align: center;
+    margin-top: -20px;
+  }
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    width: 360px;
+    height: 640px;
+    background: white;
+  }
+  .material-icons{
+    display: contents;
+  }
+ .profile-body .profile-info #d1{
+    padding:45px
+ }
+ #random {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  #random img {
+    margin-top: 13px;
+    border-radius: 70%; /* Add border radius */
+    width: 150px;
+  }
+  .material-icons{
+    display: flex;
+  }
+  #d3 p {
+    margin-top: -15px; /* Adjust the margin as desired */
+  }
+#d1 .profile-info{
+   margin-top: -10px;
+}
+#d4 h5{
+    margin-bottom: -10px;
+}
+
+#resetButton {
+  position: absolute;
+  bottom: 1px;
+  right: 600px;
+  outline: none;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    
+    background:cornflowerblue;
+  }
+  #resetButton:hover{
+  background:linear-gradient(to right ,#79c2d0,rgba(187, 228, 233, 0.777) );
+
+}
