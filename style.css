@@ -1,99 +1,83 @@
-body{
-    background:url(bg.png);
+body {
+  background: url(bg.png);
 }
 
-
-.smartphone {
-    position: relative;
-    width: 360px;
-    height: 640px;
-    margin: auto;
-    border: 16px black solid;
-    border-top-width: 60px;
-    border-bottom-width: 60px;
-    border-radius: 36px;
-  }
-  
-  /* The horizontal line on the top of the device */
-  .smartphone:before {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 5px;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 10px;
-  }
-  
-  /* The circle on the bottom of the device */
-  .smartphone:after {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 50%;
-    bottom: -65px;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 40%;
-  }
-  h3{
-    text-align: center;
-    margin-top: -20px;
-  }
-  /* The screen (or content) of the device */
-  .smartphone .content {
-    width: 360px;
-    height: 640px;
-    background: white;
-  }
-  .material-icons{
-    display: contents;
-  }
- .profile-body .profile-info #d1{
-    padding:45px
- }
- #random {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-  }
-  
-  #random img {
-    margin-top: 13px;
-    border-radius: 70%; /* Add border radius */
-    width: 150px;
-  }
-  .material-icons{
-    display: flex;
-  }
-  #d3 p {
-    margin-top: -15px; /* Adjust the margin as desired */
-  }
-#d1 .profile-info{
-   margin-top: -10px;
+.img img {
+  margin-top: 13px;
+  width: 425px;
+  background: transparent;
+  margin-left: 30rem;
+  z-index: -1;
+  position: relative;
 }
-#d4 h5{
-    margin-bottom: -10px;
+.profile-top{
+  text-align: center;
+}
+.profile-top h1{
+  bottom: 0px;
 }
 
-#resetButton {
-  position: absolute;
-  bottom: 1px;
-  right: 600px;
-  outline: none;
-    border: none;
-    border-radius: 1rem;
-    cursor: pointer;
-    padding: 10px;
-    
-    background:cornflowerblue;
-  }
-  #resetButton:hover{
-  background:linear-gradient(to right ,#79c2d0,rgba(187, 228, 233, 0.777) );
+.profile-top h3{
+  color: gray;
+  text-decoration: underline;
+  top: 0px;
 
+}
+.profile-body .profile-info .material-icons #d1{
+  margin-right: 200px;
+}
+.user-profile{
+  width: 400px;
+  border: 6px solid whitesmoke;
+position: absolute;
+height: 70vh;
+display: flex;
+flex-direction: column;
+margin-left: 545px;
+z-index: 10;
+bottom: 4px;
+top: 375px;
+background-color: white;
+border-radius:10px;
+
+}
+ .user-profile .user-top .user-info h1{
+  display: flex;
+  flex-direction: column;
+text-align: center;
+  align-items: center;
+}
+.user-profile .user-top .user-info h3{
+text-align: center;
+left: 300px;
+}
+.material-icons{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+ justify-content: center;
+}
+#d3{
+  padding-left: 25px;
+}
+#dob{
+  justify-content: center;
+  padding-left: 15px;
+}
+.p{
+  padding-left: 25px;
+}
+#email{
+  margin-left: 0;
+}
+.main{
+  border: 8px solid whitesmoke;
+  background-color: white;
+  width: 25.5vw;
+  border-radius:10px;
+margin-left: 550px;
+margin-top: 450px;
+z-index: 10;
 }
