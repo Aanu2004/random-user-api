@@ -89,3 +89,18 @@ padding-top: 0px;
   .detail .material-icons {
     margin-bottom: 5px; /* Adjust spacing for stacked layout */
   }
+
+}
+ @media only screen and (max-width: 768px) {
+  .user-profile  {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+  .img{
+    flex-direction: column; /* Stack items vertically on small screens */
+
+  }
+  .main{
+    flex-direction: column;
+  }
+    
+} 
