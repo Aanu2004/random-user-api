@@ -30,7 +30,7 @@ body {
   width: 400px;
   border: 6px solid whitesmoke;
 position: absolute;
-height: 70vh;
+height: 72vh;
 display: flex;
 flex-direction: column;
 margin-left: 545px;
@@ -80,4 +80,12 @@ left: 300px;
 margin-left: 550px;
 margin-top: 450px;
 z-index: 10;
+padding-top: 0px;
 }
+@media only screen and (min-width:768px){
+  .profile-details .detail {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+  .detail .material-icons {
+    margin-bottom: 5px; /* Adjust spacing for stacked layout */
+  }
